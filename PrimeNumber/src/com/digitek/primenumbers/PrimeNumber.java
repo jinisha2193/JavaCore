@@ -4,7 +4,7 @@ public class PrimeNumber {
 	
 	public static void prime(){
 		int i=0,flag=0,c=0;
-		for(c= 4;c<20;c++){	
+		for(c= 10;c<20;c++){	
 			flag=0;
 			for(i=2;i<(c/2);){
 				if(c%i==0){
